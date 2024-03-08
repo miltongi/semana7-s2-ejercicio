@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <h1>BOOTSTRAP</h1>
+
+    <h2>GRILLAS</h2>
+    <p>En Bootstrap se usan las grillas que estan compuestas por filas y un maximo de 12 columnas</p>
+    <br>
+    <h2>COLUMNAS</h2>
+    <p>Las columnas en Bootstrap son un maximo de 12 las cuales se puede conbinar pero siempre teniendo en cuenta de no pasar de 12 columnas</p>
+    <br>
+    <h2>MEDIAQUERYS</h2>
+    <p>Los mediaquery se usan para poder realizar los cambiso de tamaño en las diferentes medidas de pantallas</p>
+    <br>
+    <h2>CONTAINER</h2>
+    <p>Son los contenedores padres de las grillas </p>
+    <div class="container border borde-primary">
+        <p>se muestra un contenedor</p>
+    </div>
+    <br>
+    <h2>ROW</h2>
+    <p>Son las filas que se declaran en las grillas </p>
+    <div class="row border borde-primary"> 
+        <p>Se muestra 1 sola fila</p>
+    </div>
+    <br>
+    <H2>COL</H2>
+    <p>Son las columnas que se declaran en las grillas, las cuales son en un maximo de 12 columnas </p>
+    <div class="row">
+        <div  class="border borde-primary col-xxl-8 col-xl-6 col-md-4">uno</div>
+        <div  class="border borde-primary col-xxl-2 col-xl-3 col-md-4" >dos</div>
+        <div  class="border borde-primary col-xxl-2 col-xl-3 col-md-4">tres</div>
+    </div>
+    
+
+    <h1>5 COMPONENTES DE BOOTSTRAP</h1>
+    <br>
+    <h2>Formulario de control</h2>
+   
+        <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+        </div>
+
+        <br>
+        <h2>Rango</h2> 
+        <label for="customRange2" class="form-label">Example range</label>
+        <input type="range" class="form-range" min="0" max="5" id="customRange2">
+        <br>
+        <h2>Botones</h2>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <br>
+        <br><br>
+        <h2>Carga</h2>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+          </div>
+        <br>
+        <h2>Loading</h2>
+          <button class="btn btn-primary" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+            <span class="visually-hidden" role="status">Loading...</span>
+          </button>
+          <button class="btn btn-primary" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+            <span role="status">Loading...</span>
+          </button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
